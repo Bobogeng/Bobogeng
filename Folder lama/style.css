@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  z-index: 100;
+}
+
+nav .logo {
+  border-radius: 50%;
+  width: 50px;
+  cursor: pointer;
+}
+
+.navbar {
+  margin: auto 0;
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 45px;
+}
+
+.navbar li a {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 15px;
+  color: #514d4a;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: #f4a861;
+  transition: 0.3s ease 0s;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section img#matahari {
+  mix-blend-mode: screen;
+  z-index: 10;
+}
+
+#text {
+  position: absolute;
+  color: #f4a861;
+  white-space: nowrap;
+  font-size: 52px;
+  font-weight: bold;
+  z-index: 9;
+}
+
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+
+.bloob {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bloob #small-blob-1 {
+  top: 0px;
+}
+
+.home-social {
+  display: flex;
+  align-items: center;
+}
+
+.home-social-icon {
+  margin-right: 32px;
+  width: 24px;
+  height: 24px;
+  color: #f4a861;
+}
+
+.home-social-icon:hover {
+  color: #514d4a;
+  transition: ease-in-out 0.3s;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background-color: #f4a861;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.button span {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #514d4a;
+  transition: width 0.5s, height 0.5s;
+}
+
+.button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.pas-foto {
+  position: absolute;
+  width: 50%;
+}
+
+section .text h1,
+section .text .name {
+  color: #d28844;
+  font-weight: bold;
+}
+
+section .text h2 {
+  color: #f4a861;
+  font-weight: bold;
+}
+
+section .text p {
+  color: #f8c698;
+  font-style: normal;
+}
