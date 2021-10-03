@@ -381,7 +381,7 @@ section.transition #chameleon {
   overflow: hidden;
 }
 
-.container h1 {
+.skills .container h1 {
   color: #f4a861;
   font-size: 2.8em;
   font-weight: bold;
