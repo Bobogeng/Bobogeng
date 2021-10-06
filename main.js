@@ -179,6 +179,25 @@ gsap.to("#landscape", {
   });
 
   tp.from(".transition", { y: 200, opacity: 0, duration: 3})
+    .from("#wave-3", { y: -200, opacity: 1, duration: 1}, "-=1")
+    .from("#wave-4", { y: 200, opacity: 1, duration: 1}, "-=1")
+
+  let tu = gsap.timeline({
+      scrollTrigger: {
+          trigger: ".transition2",
+          start: "top bottom",
+          end: 5
+      },
+  });
+  
+  tu.from("#bobogeng", { rotate: -360, x: -1920, ease: "power2.inOut", duration: 3})
+    .from("#bobogeng", { scale: 0.8, ease: "power2.inOut", duration: 1})
+    .from("#bobogeng", { scale: 1, ease: "power2.inOut", duration: 1})
+    .from("#bobogeng", { scale: 0.8, ease: "power2.inOut", duration: 2})
+    .from("#bobogeng", { scale: 1, ease: "power2.inOut", duration: 2})
+  tu.to("#bobogeng", { rotate: 360, x: 1920, ease: "power2.inOut", duration: 3})
+  .from("#bobogeng", { scale: 0.8, ease: "power2.inOut", duration: 0.5})
+  .repeat(-1)
 
   "use strict";
 var testim = document.getElementById("testim"),
