@@ -255,11 +255,11 @@ section.home #text {
   margin-right: 32px;
   width: 32px;
   color: #f4a861;
+  transition: ease-in-out 0.3s;
 }
 
 .about-social-icon:hover {
   color: #514d4a;
-  transition: ease-in-out 0.3s;
 }
 
 /* Transition */
@@ -370,7 +370,7 @@ section.transition #chameleon {
   text-align: center;
   justify-content: center;
   top: 0;
-  transition: top ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
 }
 
 .skills .container .card .skills-icon {
@@ -412,7 +412,6 @@ section.transition #chameleon {
 .skills .container .card:hover {
   background: #f4a861;
   top: -10px;
-  transition: ease-in-out 0.5s;
 }
 
 /* Works */
@@ -1126,4 +1125,118 @@ section.transition #chameleon {
   100% {
     transform: translate3d(85px, 0, 0);
   }
+}
+
+/* Tools */
+.tools.container-fluid {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.tools .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1820px;
+  flex-wrap: wrap;
+}
+
+.tools .title {
+  text-align: center;
+  color: #d28844;
+  font-weight: bold;
+  margin-bottom: 92px;
+}
+
+.tools .content {
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.tools h1 {
+  font-weight: bold;
+}
+
+.tools h2 {
+  font-weight: 600;
+  color: #d28844;
+  margin-bottom: 20px;
+}
+
+.tools p {
+  font-weight: 500;
+  color: #f4a861;
+  font-size: 1.2em;
+}
+
+.tools span {
+  font-weight: bold;
+  color: #ffd9b6;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(30, 30, 30);
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  list-style: none;
+}
+
+.footer-social li {
+  margin-right: 32px;
+}
+
+.footer-social-icon {
+  margin-right: 24px;
+  width: 24px;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.footer-social a {
+  text-decoration: none;
+}
+
+.footer-social-icon:hover {
+  color: #514d4a;
+}
+
+.footer-bottom {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  padding: 5 px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 1em;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: rgba(30, 30, 30);
+}
+
+.footer-bottom span {
+  font-weight: bold;
 }
