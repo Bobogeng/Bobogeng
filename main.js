@@ -139,7 +139,7 @@ gsap.to("#landscape", {
       }
   });
 
-  sl.from("#text", { y: 100, scale: 0.8 , opacity: 0, duration: 1.5})
+  sl.from(".home #text", { y: 100, scale: 0.8 , opacity: 0, duration: 1.5})
 
   var tl2 = new TimelineMax({ repeat: 1 })
   .to("#blob-besar", 5, { scale: 1.1 })
@@ -168,8 +168,8 @@ gsap.to("#landscape", {
       }
   });
 
-  tl.from(".blob", { x: -200, opacity: 0, duration: 1.5})
-    .from(".text-about", {y: 300, opacity: 0, duration: 1}, "-=1")
+  tl.from(".about .blob", { x: -200, opacity: 0, duration: 1.5})
+    .from(".about .text-about", {y: 300, opacity: 0, duration: 1}, "-=1")
 
   let tp = gsap.timeline({
       scrollTrigger: {
@@ -179,7 +179,6 @@ gsap.to("#landscape", {
   });
 
   tp.from(".transition", { y: 200, opacity: 0, duration: 3})
-    .from("#wave-3", { y: -200, opacity: 1, duration: 1}, "-=1")
     .from("#wave-4", { y: 200, opacity: 1, duration: 1}, "-=1")
 
   let tu = gsap.timeline({
@@ -189,7 +188,36 @@ gsap.to("#landscape", {
           end: 5
       },
   });
+
+  let t100 = gsap.timeline({
+      scrollTrigger: {
+          trigger: ".skills",
+          start: "center bottom"
+      }
+  });
+
+  t100.from(".skills .title", { y: 200, opacity: 0, duration: 1.5})
+    .from(".card", {y: 1080, opacity: 0, duration: 0.5}, "-=1.5")
+
+  let t101 = gsap.timeline({
+      scrollTrigger: {
+          trigger: ".works",
+          start: "center bottom"
+      }
+  });
+
+  t101.from(".testim", { y: 300, opacity: 0, duration: 1})
   
+  let t102 = gsap.timeline({
+      scrollTrigger: {
+          trigger: ".tools",
+          start: "center bottom"
+      }
+  });
+
+  t102.from(".tools", { y: 300, opacity: 0, duration: 1})
+    .from(".waves0", { y: 200, opacity: 1, duration: 1}, "-=1")
+
   tu.from("#bobogeng", { rotate: -360, x: -1920, ease: "power2.inOut", duration: 3})
     .from("#bobogeng", { scale: 0.8, ease: "power2.inOut", duration: 1})
     .from("#bobogeng", { scale: 1, ease: "power2.inOut", duration: 1})

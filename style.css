@@ -61,7 +61,11 @@ img {
 .navbar-nav .nav-item .nav-link {
   color: #514d4a;
 }
-.navbar-nav .nav-item .nav-link.active,
+
+.active {
+  color: #f4a861;
+}
+
 .navbar-nav .nav-item:hover .nav-link {
   color: #f4a861;
 }
@@ -1035,6 +1039,16 @@ section.transition #chameleon {
   align-items: center;
 }
 
+.waves0 {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+  z-index: -1;
+}
+
 .waves {
   position: relative;
   width: 100%;
@@ -1222,21 +1236,6 @@ footer {
   color: #514d4a;
 }
 
-.footer-bottom {
-  position: relative;
-  background: #fff;
-  width: 100%;
-  padding: 5 px 0;
-  text-align: center;
-}
-
-.footer-bottom p {
-  font-size: 1em;
-  word-spacing: 2px;
-  text-transform: capitalize;
-  color: rgba(30, 30, 30);
-}
-
-.footer-bottom span {
+.footer-content span {
   font-weight: bold;
 }
