@@ -5,7 +5,7 @@ Hi there I'm @Bobogeng 👋
 Here are some ideas to get you started:
 
 - 🌱 I’m currently learning on HTML, CSS and Javascript
-- 😎 I'm Interested in Game Development
+- 😎 I'm Interested in Game Development and also a Graphic Designer
 - 📫 How to reach me:
      - E-mail: suirito@gmail.com
      - Instagram: https://www.instagram.com/irsal_f.f/
