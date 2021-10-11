@@ -1,6 +1,7 @@
-<h1 style="text-align="center" color="#F4A861"">Hello World<span style="color="#EB5B34"">.</span></h1>
-<hr>
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif)
+<h1 align="center">Hello World 👋</h1>
+<br>
+
+![Bobogeng Entry](https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif)
 
 
 Hi there I'm **@Bobogeng** 👋
@@ -20,4 +21,4 @@ Here are some ideas to get you started:
 
 And also this is my first **Pixel Art Landscape** ✨
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif)
+![Pixel Art Landscape](https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif)
