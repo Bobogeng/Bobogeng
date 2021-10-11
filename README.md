@@ -1,3 +1,6 @@
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif)
+
+
 Hi there I'm @Bobogeng 👋
 
 **Bobogeng/Bobogeng** is a ✨ _special_ ✨ repository because its my portofolio website!
@@ -12,4 +15,3 @@ Here are some ideas to get you started:
      - Facebook: https://www.facebook.com/irsal.ff/
      - Youtube: https://www.youtube.com/channel/UCw2wRI6MUlyW1T32g8RZ-fg
 - 😄 Pronouns: Bogeng
-
