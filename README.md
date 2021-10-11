@@ -15,3 +15,7 @@ Here are some ideas to get you started:
      - Facebook: https://www.facebook.com/irsal.ff/
      - Youtube: https://www.youtube.com/channel/UCw2wRI6MUlyW1T32g8RZ-fg
 - 😄 Pronouns: Bogeng
+
+And also this is my first **Pixel Art Landscape** ✨
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif)
