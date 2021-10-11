@@ -1,7 +1,7 @@
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif)
 
 
-Hi there I'm @Bobogeng 👋
+Hi there I'm **@Bobogeng** 👋
 
 **Bobogeng/Bobogeng** is a ✨ _special_ ✨ repository because its my portofolio website!
 
