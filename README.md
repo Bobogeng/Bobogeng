@@ -1,8 +1,9 @@
 <h1 align="center">Hello World 👋</h1>
 <br>
 
-![Bobogeng Entry](https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif)
-
+<div align="center">
+     <img width="100%" src="https://user-images.githubusercontent.com/91356025/136719791-80cf336a-bf15-4525-b8fa-d3e8d3f31ca2.gif">
+</div>
 
 Hi there I'm **@Bobogeng** 👋
 
@@ -21,7 +22,9 @@ Here are some ideas to get you started:
 
 And also this is my first **Pixel Art Landscape** ✨
 
-![Pixel Art Landscape](https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif)
+<div align="center">
+     <img width="100%" src="https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif">
+</div>
 
 <hr>
 <h1 align="center">My Skills</h1>
