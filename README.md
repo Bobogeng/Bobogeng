@@ -22,3 +22,35 @@ Here are some ideas to get you started:
 And also this is my first **Pixel Art Landscape** ✨
 
 ![Pixel Art Landscape](https://user-images.githubusercontent.com/91356025/136723301-cfef8a81-c9cc-4614-a093-c156d5824c68.gif)
+
+<hr>
+<h1 align="center">My Skills</h1>
+<table align="center">
+     <tr>
+          <td align="center">Graphic Designer</td>
+          <td align="center">Front End Developer</td>
+     </tr>
+     <tr>
+          <td align="center">Network Engineer</td>
+          <td align="center">UI/UX Designer</td>
+     </tr>
+</table>
+<hr>
+<h1 align="center">Languages & Tools Used</h1>
+<div align="center">
+     <a href="https://www.adobe.com/products/illustrator.html"><img src="https://img.icons8.com/color/96/000000/adobe-illustrator--v1.png"/></a>
+     <a href="https://www.adobe.com/products/photoshop.html"><img src="https://img.icons8.com/color/96/000000/adobe-photoshop--v1.png"/></a>
+     <a href="https://www.adobe.com/products/premiere.html"><img src="https://img.icons8.com/color/96/000000/adobe-premiere-pro--v1.png"/></a>
+     <a href="https://www.adobe.com/products/aftereffects.html"><img src="https://img.icons8.com/color/96/000000/adobe-after-effects--v1.png"/></a>
+</div>
+<div align="center">
+     <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/96/000000/figma--v1.png"/></a>
+     <a href="https://dev.w3.org/html5/spec-LC/"><img src="https://img.icons8.com/color/96/000000/html-5--v1.png"/></a>
+     <a href="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"><img src="https://img.icons8.com/color/96/000000/css3.png"/></a>
+     <a href="https://www.w3.org/standards/webdesign/script"><img src="https://img.icons8.com/color/96/000000/javascript--v1.png"/></a>
+</div>
+<div align="center">
+     <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/96/000000/visual-studio-code-2019.png"/></a>
+     <a href="https://unity.com/pages/unity-pro-buy-now?gclid=Cj0KCQjwwY-LBhD6ARIsACvT72MykBt7Bu-oAhRkj5G6wWKhXNGPj7qqwn97mbj9UnZ1nvSqrMsXV_4aAtsjEALw_wcB"><img src="https://img.icons8.com/nolan/96/unity.png"/></a>
+     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png"/></a>
+</div>
