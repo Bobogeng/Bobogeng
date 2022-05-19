@@ -1,4 +1,3 @@
-<script src="https://cdn.tailwindcss.com"></script>
 <h1 align="center">Hello World 👋</h1>
 <br>
 
@@ -41,7 +40,7 @@ And also this is my first **Pixel Art Landscape** ✨
 </table>
 <hr>
 <h1 align="center">Languages & Tools Used</h1>
-<div align="center bg-white">
+<div align="center">
      <a href="https://www.adobe.com/products/illustrator.html"><img src="https://img.icons8.com/color/96/000000/adobe-illustrator--v1.png"/></a>
      <a href="https://www.adobe.com/products/photoshop.html"><img src="https://img.icons8.com/color/96/000000/adobe-photoshop--v1.png"/></a>
      <a href="https://www.adobe.com/products/premiere.html"><img src="https://img.icons8.com/color/96/000000/adobe-premiere-pro--v1.png"/></a>
